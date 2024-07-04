@@ -1,4 +1,4 @@
-###Photography Portfolio- check out here----> clickhere()
+###Photography Portfolio- check out here----> clickhere(https://abhay-photography-iitr.netlify.app/)
 
 This repository contains the source code for my photography portfolio website.
 
@@ -29,15 +29,12 @@ Installation
 Clone the repository:
 
 ```bash
-git clone https://github.com/abhay1201/photography_portfolio.git
+           git clone https://github.com/abhay1201/photography_portfolio.git
 Navigate into the project directory:
-```bash
-cd photography_portfolio
+         ```bash
+           cd photography_portfolio
 
-
-
-
-       ###Usage
+###Usage
 Open index.html in your web browser to view the website locally.
 
 Contributing
