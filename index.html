@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abhay_photography</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
+</head>
+
+<body class="bg-gray-100">
+    <!-- Navbar -->
+    <nav class="bg-white shadow-lg">
+        <div class="container mx-auto px-4">
+            <div class="flex justify-between items-center py-4">
+                <div class="text-2xl font-bold text-gray-800">Abhay Kumar</div>
+                <div class="hidden md:flex space-x-6">
+                    <a href="#home" class="text-gray-600 hover:text-gray-800">Home</a>
+                    <a href="#about" class="text-gray-600 hover:text-gray-800">About</a>
+                    <a href="#portfolio" class="text-gray-600 hover:text-gray-800">Work</a>
+                    <a href="#contact" class="text-gray-600 hover:text-gray-800">Contact</a>
+                </div>
+                <div class="md:hidden">
+                    <button id="menu-btn" class="text-gray-800 focus:outline-none">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div id="menu" class="hidden md:hidden">
+            <a href="#home" class="block py-2 px-4 text-sm hover:bg-gray-200">Home</a>
+            <a href="#about" class="block py-2 px-4 text-sm hover:bg-gray-200">About</a>
+            <a href="#portfolio" class="block py-2 px-4 text-sm hover:bg-gray-200">Portfolio</a>
+            <a href="#contact" class="block py-2 px-4 text-sm hover:bg-gray-200">Contact</a>
+        </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home" class="h-screen flex items-center justify-center bg-cover bg-center" style="background-image: url('jtb.png');">
+        <div class="text-center text-white">
+            <h1 class="text-5xl font-bold">Welcome to My Portfolio</h1>
+            <p class="mt-4 text-xl">Showcasing my work in photography and videography</p>
+        </div>
+    </section>
+
+<!-- About Section -->
+<section id="about" class="py-20 bg-gray-200">
+    <div class="container mx-auto px-4">
+        <h2 class="text-3xl font-bold text-gray-800 mb-4 text-center md:text-left">About Me</h2>
+        <div class="flex flex-col md:flex-row items-center">
+            <div class="md:w-1/2 text-center md:text-left mb-4 md:mb-0">
+                <img src="about.jpg" alt="Your Photo" class="w-80 h-80 object-cover ">
+            </div>
+            <div class="md:w-1/2 md:pl-4 md:text-left mt-2 md:mt-0 md:ml-1">
+                <p class="text-gray-600">
+                    Hello folks! I am an undergraduate student at <b>IIT ROORKEE</b>, pursuing my <b>B.Tech degree in Electrical Engineering Department</b>. I belong to West Champaran, Bihar. My hobbies include Travelling ,treking, and playing cricket.
+                </p>
+                <p class="mt-1 text-gray-600">
+                    I am keenly interested in photography and videography, and UI & UX Design. I like learning new skills.
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+ 
+    <!-- Portfolio Section -->
+ <!-- Portfolio Section -->
+<section id="portfolio" class="py-20 bg-white">
+    <div class="container mx-auto px-4 text-center">
+        <h2 class="text-3xl font-bold text-gray-800 mb-10">My Work</h2>
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
+            <!-- Portfolio items -->
+            <!-- Replace with your actual image URLs -->
+            <div class="group overflow-hidden rounded-lg shadow-lg relative">
+                <img src="1.jpg" alt="Portfolio Item 1" class="w-full h-auto object-cover transition duration-300 transform group-hover:scale-110">
+                <div class="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 bg-black bg-opacity-50 transition-opacity">
+                    <a href="#" class="text-white text-lg font-bold">Download</a>
+                </div>
+            </div>
+            <div class="group overflow-hidden rounded-lg shadow-lg relative">
+                <img src="2.jpg" alt="Portfolio Item 2" class="w-full h-auto object-cover transition duration-300 transform group-hover:scale-110">
+                <div class="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 bg-black bg-opacity-50 transition-opacity">
+                    <a href="#" class="text-white text-lg font-bold">Download</a>
+                </div>
+            </div>
+            <div class="group overflow-hidden rounded-lg shadow-lg relative">
+                <img src="3.jpg" alt="Portfolio Item 3" class="w-full h-auto object-cover transition duration-300 transform group-hover:scale-110">
+                <div class="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 bg-black bg-opacity-50 transition-opacity">
+                    <a href="#" class="text-white text-lg font-bold">Download</a>
+                </div>
+            </div>
+            <div class="group overflow-hidden rounded-lg shadow-lg relative">
+                <img src="4.jpg" alt="Portfolio Item 4" class="w-full h-auto object-cover transition duration-300 transform group-hover:scale-110">
+                <div class="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 bg-black bg-opacity-50 transition-opacity">
+                    <a href="#" class="text-white text-lg font-bold">Download</a>
+                </div>
+            </div>
+            <div class="group overflow-hidden rounded-lg shadow-lg relative">
+                <img src="5.jpg" alt="Portfolio Item 5" class="w-full h-auto object-cover transition duration-300 transform group-hover:scale-110">
+                <div class="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 bg-black bg-opacity-50 transition-opacity">
+                    <a href="#" class="text-white text-lg font-bold">Download</a>
+                </div>
+            </div>
+            <div class="group overflow-hidden rounded-lg shadow-lg relative">
+                <img src="6.jpg" alt="Portfolio Item 6" class="w-full h-auto object-cover transition duration-300 transform group-hover:scale-110">
+                <div class="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 bg-black bg-opacity-50 transition-opacity">
+                    <a href="#" class="text-white text-lg font-bold">Download</a>
+                </div>
+            </div>
+            <div class="group overflow-hidden rounded-lg shadow-lg relative">
+                <img src="7.jpg" alt="Portfolio Item 7" class="w-full h-auto object-cover transition duration-300 transform group-hover:scale-110">
+                <div class="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 bg-black bg-opacity-50 transition-opacity">
+                    <a href="#" class="text-white text-lg font-bold">Download</a>
+                </div>
+            </div>
+            <div class="group overflow-hidden rounded-lg shadow-lg relative">
+                <img src="8.jpg" alt="Portfolio Item 8" class="w-full h-auto object-cover transition duration-300 transform group-hover:scale-110">
+                <div class="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 bg-black bg-opacity-50 transition-opacity">
+                    <a href="#" class="text-white text-lg font-bold">Download</a>
+                </div>
+            </div>
+            <div class="group overflow-hidden rounded-lg shadow-lg relative">
+                <img src="9.jpg" alt="Portfolio Item 9" class="w-full h-auto object-cover transition duration-300 transform group-hover:scale-110">
+                <div class="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 bg-black bg-opacity-50 transition-opacity">
+                    <a href="#" class="text-white text-lg font-bold">Download</a>
+                </div>
+            </div>
+            <div class="group overflow-hidden rounded-lg shadow-lg relative">
+                <img src="10.jpg" alt="Portfolio Item 10" class="w-full h-auto object-cover transition duration-300 transform group-hover:scale-110">
+                <div class="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 bg-black bg-opacity-50 transition-opacity">
+                    <a href="#" class="text-white text-lg font-bold">Download</a>
+                </div>
+            </div>
+            <div class="group overflow-hidden rounded-lg shadow-lg relative">
+                <img src="11.jpg" alt="Portfolio Item 11" class="w-full h-auto object-cover transition duration-300 transform group-hover:scale-110">
+                <div class="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 bg-black bg-opacity-50 transition-opacity">
+                    <a href="#" class="text-white text-lg font-bold">Download</a>
+                </div>
+            </div>
+            <div class="group overflow-hidden rounded-lg shadow-lg relative">
+                <img src="12.jpg" alt="Portfolio Item 12" class="w-full h-auto object-cover transition duration-300 transform group-hover:scale-110">
+                <div class="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 bg-black bg-opacity-50 transition-opacity">
+                    <a href="#" class="text-white text-lg font-bold">Download</a>
+                </div>
+            </div>
+            <div class="group overflow-hidden rounded-lg shadow-lg relative">
+                <img src="13.jpg" alt="Portfolio Item 13" class="w-full h-auto object-cover transition duration-300 transform group-hover:scale-110">
+                <div class="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 bg-black bg-opacity-50 transition-opacity">
+                    <a href="#" class="text-white text-lg font-bold">Download</a>
+                </div>
+            </div>
+            <div class="group overflow-hidden rounded-lg shadow-lg relative">
+                <img src="14.jpg" alt="Portfolio Item 14" class="w-full h-auto object-cover transition duration-300 transform group-hover:scale-110">
+                <div class="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 bg-black bg-opacity-50 transition-opacity">
+                    <a href="#" class="text-white text-lg font-bold">Download</a>
+                </div>
+            </div>
+            <div class="group overflow-hidden rounded-lg shadow-lg relative">
+                <img src="15.jpg" alt="Portfolio Item 15" class="w-full h-auto object-cover transition duration-300 transform group-hover:scale-110">
+                <div class="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 bg-black bg-opacity-50 transition-opacity">
+                    <a href="#" class="text-white text-lg font-bold">Download</a>
+                </div>
+            </div>
+            <div class="group overflow-hidden rounded-lg shadow-lg relative">
+                <img src="16.jpg" alt="Portfolio Item 16" class="w-full h-auto object-cover transition duration-300 transform group-hover:scale-110">
+                <div class="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 bg-black bg-opacity-50 transition-opacity">
+                    <a href="#" class="text-white text-lg font-bold">Download</a>
+                </div>
+            </div>
+            <div class="group overflow-hidden rounded-lg shadow-lg relative">
+                <img src="17.jpg" alt="Portfolio Item 17" class="w-full h-auto object-cover transition duration-300 transform group-hover:scale-110">
+                <div class="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 bg-black bg-opacity-50 transition-opacity">
+                    <a href="#" class="text-white text-lg font-bold">Download</a>
+                </div>
+            </div>
+            <div class="group overflow-hidden rounded-lg shadow-lg relative">
+                <img src="18.jpg" alt="Portfolio Item 18" class="w-full h-auto object-cover transition duration-300 transform group-hover:scale-110">
+                <div class="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 bg-black bg-opacity-50 transition-opacity">
+                    <a href="#" class="text-white text-lg font-bold">Download</a>
+                </div>
+            </div>
+            <div class="group overflow-hidden rounded-lg shadow-lg relative">
+                <img src="19.jpg" alt="Portfolio Item 19" class="w-full h-auto object-cover transition duration-300 transform group-hover:scale-110">
+                <div class="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 bg-black bg-opacity-50 transition-opacity">
+                    <a href="#" class="text-white text-lg font-bold">Download</a>
+                </div>
+            </div>
+            <div class="group overflow-hidden rounded-lg shadow-lg relative">
+                <img src="20.jpg" alt="Portfolio Item 20" class="w-full h-auto object-cover transition duration-300 transform group-hover:scale-110">
+                <div class="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 bg-black bg-opacity-50 transition-opacity">
+                    <a href="#" class="text-white text-lg font-bold">Download</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+   
+
+
+    <!-- Contact Section -->
+    
+        <!-- Footer Section -->
+<footer id="contact" class="py-10 bg-gray-200">
+    <div class="container mx-auto px-4 text-center">
+        <h2 class="text-3xl font-bold text-gray-800 mb-6">Get In Touch</h2>
+        <div class="flex flex-col md:flex-row justify-center items-center space-y-4 md:space-y-0 md:space-x-8">
+            <a href="https://instagram.com/staggered_abhay" class="text-gray-600 hover:text-gray-800">
+                <svg class="w-12 h-12" fill="currentColor" viewBox="0 0 24 24">
+                    <path d="M12 2.2c3.2 0 3.6.014 4.85.07 1.24.056 2.15.24 2.93.515.79.275 1.46.auto 2.11 1.29.65.65 1.014 1.32 1.29 2.11.276.78.46 1.69.515 2.93.057 1.24.07 1.65.07 4.85s-.014 3.6-.07 4.85c-.056 1.24-.24 2.15-.515 2.93-.275.79-.auto 1.46-1.29 2.11-.65.65-1.32 1.014-2.11 1.29-.78.276-1.69.46-2.93.515-1.24.057-1.65.07-4.85.07s-3.6-.014-4.85-.07c-1.24-.056-2.15-.24-2.93-.515-.79-.275-1.46-.auto-2.11-1.29-.65-.65-1.014-1.32-1.29-2.11-.276-.78-.46-1.69-.515-2.93-.057-1.24-.07-1.65-.07-4.85s.014-3.6.07-4.85c.056-1.24.24-2.15.515-2.93.275-.79.auto-1.46 1.29-2.11.65-.65 1.32-1.014 2.11-1.29.78-.276 1.69-.46 2.93-.515C8.4 2.214 8.8 2.2 12 2.2zm0-2.2C8.7 0 8.3.014 7.05.07 5.8.127 4.88.31 4.1.585c-.79.275-1.5.auto-2.21 1.35-.71.71-1.075 1.42-1.35 2.21-.275.78-.458 1.69-.515 2.93C.014 8.3 0 8.7 0 12s.014 3.6.07 4.85c.056 1.24.24 2.15.515 2.93.275.79.auto 1.5 1.35 2.21.71.71 1.42 1.075 2.21 1.35.78.275 1.69.458 2.93.515 1.24.057 1.65.07 4.85.07s3.6-.014 4.85-.07c1.24-.056 2.15-.24 2.93-.515.79-.275 1.5-.auto 2.21-1.35.71-.71 1.075-1.42 1.35-2.21.275-.78.458-1.69.515-2.93.057-1.24.07-1.65.07-4.85s-.014-3.6-.07-4.85c-.056-1.24-.24-2.15-.515-2.93-.275-.79-.auto-1.5-1.35-2.21-.71-.71-1.42-1.075-2.21-1.35-.78-.275-1.69-.458-2.93-.515C15.3.014 14.7 0 12 0zm0 5.5a6.5 6.5 0 1 0 0 13 6.5 6.5 0 0 0 0-13zm0 10.8a4.3 4.3 0 1 1 0-8.6 4.3 4.3 0 0 1 0 8.6zm7.9-11.1a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3z" />
+                </svg>
+                <p class="mt-2 text-gray-600">Instagram</p>
+            </a>
+            <a href="https://www.linkedin.com/in/abhay-kumar-968155218" class="text-gray-600 hover:text-gray-800">
+                <svg class="w-12 h-12" fill="currentColor" viewBox="0 0 24 24">
+                    <path d="M20.452 2H3.548C2.7 2 2 2.7 2 3.548v16.904C2 21.3 2.7 22 3.548 22h16.904C21.3 22 22 21.3 22 20.452V3.548C22 2.7 21.3 2 20.452 2zM8.766 18.452H5.904v-8.504h2.862v8.504zM7.335 8.944a1.66 1.66 0 1 1 0-3.321 1.66 1.66 0 0 1 0 3.32zM18.452 18.452h-2.861v-4.115c0-.982-.02-2.244-1.368-2.244-1.37 0-1.578 1.072-1.578 2.174v4.185H10.78v-8.504h2.747v1.16h.039c.382-.724 1.317-1.489 2.71-1.489 2.897 0 3.433 1.906 3.433 4.383v4.45z" />
+                </svg>
+                <p class="mt-2 text-gray-600">LinkedIn</p>
+            </a>
+            <a href="mailto:abhayaditya327@gmail.com" class="text-gray-600 hover:text-gray-800">
+                <svg class="w-12 h-12" fill="currentColor" viewBox="0 0 24 24">
+                    <path d="M12 12.713l11.542-7.713H.458L12 12.713zM0 5.071v13.856l7.679-5.079L0 5.071zm24 0l-7.679 8.777L24 18.927V5.071zM8.312 12.927l-8.312 5.455V21h24v-2.618l-8.312-5.455L12 18.007l-3.688-5.08z" />
+                </svg>
+                <p class="mt-2 text-gray-600">Gmail</p>
+            </a>
+        </div>
+    </div>
+</footer>
+
+
+
+    <script>
+        document.getElementById('menu-btn').addEventListener('click', () => {
+            document.getElementById('menu').classList.toggle('hidden');
+        });
+    </script>
+</body>
+
+</html>
